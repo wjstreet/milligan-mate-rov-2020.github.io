@@ -1,0 +1,22 @@
+ 
+
+
+.row
+{ 
+    height: 50%; 
+} 
+
+.row:after
+{ 
+    content: ""; 
+    display: table; 
+    clear: both; 
+}
+
+span.column
+{
+padding: 10px;
+display:inline-block;
+}
+  
+ 

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html><!--This is a draft for the root index page for a website I am making for the Milligan robotics team--> 
+<head>
+
+     
+
+<head> <!-- This is the Head element, it is where the metadata for the website goes -->  
+
+<title>Milligan Robotics home page</title>  
+
+<meta charset="utf-8">  
+
+<!--<link href="MilliganRoboticsStylesheet.css" rel="stylesheet" type="text/css">  -->
+
+</head>  
+<style>
+
+html{ 
+
+ 
+ 
+
+//background-color: rgb(0, 0, 0); 
+
+//background-image:url("MilliganRoboticsHomePageInvertedWiringPic.png"); 
+
+font-family: "Times New Roman", Times, serif; 
+
+ 
+ 
+
+} 
+
+ 
+ 
+
+body{ 
+
+ 
+ 
+
+margin: 10; 
+
+ 
+ 
+
+font-family: "Arial", Helvetica, sans-serif 
+
+ 
+ 
+ 
+
+} 
+
+
+ 
+
+h1{ 
+
+color:rgb(234, 113, 37); /*I got this RGB value from an element of the Milligan University website*/ 
+
+margin-left:0px; 
+
+width: 200px; 
+
+height:50px; 
+
+margin-bottom:0; 
+
+} 
+
+ 
+ 
+ 
+
+h2 
+
+{ 
+
+color:rgb(234, 113, 37); /*I got this RGB value from an element of the Milligan University website*/ 
+
+margin-left:90px; 
+
+width: 200px; 
+
+height:50px; 
+
+margin-bottom:0; 
+
+} 
+
+ 
+
+
+ul
+{
+    
+background-color:rgb(234, 113, 37, 0.85); /*I got this RGB value from an element of the Milligan University website*/ 
+animation:NavBarEntry 1s; 
+}
+ 
+
+ 
+ 
+ 
+
+nav li{ 
+
+ 
+ 
+ 
+
+font-size: 150%; 
+
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+
+text-decoration:none; /*This should set the hyperlinks to no underline*/ 
+
+text-shadow:red; 
+
+background-color:rgb(234, 113, 37, 0.85); /*I got this RGB value from an element of the Milligan University website*/ 
+
+text-decoration:none; 
+
+padding-top: 0px; 
+
+padding-right: 50px; 
+
+padding-bottom: 0px; 
+
+padding-left:0px; 
+
+ 
+width: 100px; 
+
+border-bottom: 3px solid; 
+
+border-left:3px solid grey; 
+
+border-right:3px solid grey; 
+
+
+animation:NavBarEntry 1s; 
+
+
+} 
+  
+
+li a, li a:visited{ 
+
+ 
+ 
+
+display: block; 
+
+width: 50px; 
+
+text-decoration: none; 
+
+color:rgb(0,0,0); 
+
+ 
+ 
+ 
+
+} 
+
+ 
+ 
+
+ul li a:hover{ 
+
+color: rgb(234, 113, 37,0.85); 
+
+text-decoration:none; 
+
+padding-top: 0px; 
+
+padding-right: 50px; 
+
+padding-bottom: 0px; 
+
+padding-left:0px; 
+
+width: 100px; 
+
+ 
+ 
+ 
+
+background-color:rgb(255 255 255); /*I got this RGB value from an element of the Milligan University website*/ 
+
+ 
+ 
+ 
+
+} 
+
+@keyframes NavBarEntry  
+
+{ 
+
+ 
+ 
+
+from {width:0px;} 
+
+to {width:100px;} 
+
+} 
+ 
+ 
+ 
+
+footer{ 
+
+
+background-color: rgba(255, 255, 255,80%); 
+
+
+
+ 
+ 
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span.ColumnA {
+  display: inline-block;
+    position: relative;
+    top: -180px;
+  width: 300px;
+  padding: 5px;
+
+
+}
+span.ColumnB {
+  display: inline-block;
+    position: initial;
+  top:0px;;
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+
+
+}
+
+row
+{
+    margin-left: 10;
+}
+
+
+
+
+</style>
+</head>
+
+
+<body>
+
+    <div class="row"> <!--create a row to put the video banner in--> 
+        <iframe width="100%" height="320px" src="https://www.youtube.com/embed/eF5hNMmLtKA?autoplay=1&amp;mute=1" frameborder="0" allowfullscreen=""></iframe> <!--shows the video--> 
+    </div><!--end row--> 
+ 
+
+    <div class="row"> <!--create a row to put the logo, nav bar, and about us section, and team phot in--> 
+
+        <div>
+            <span class="ColumnA">
+     
+
+                <!--Logo here--> 
+
+                    <img src="MilliganRoboticsLogo2021.png" alt="Emblem of a robot with a buffalo head lifting a block with the name 'Milligan' on it and standing on a squished voltage source with the word 'robotics' on it"width="100" top: 0;>
+
+                    <ul> <!--This is the nav element, this is where we create our navigation bar-->  
+                    <li><a href="index.html">About Us </a></li>  
+                    <li><a href="WebsiteProjects.html">Products</a></li>  
+                    <li><a href="MilliganRoboticsMembersPage.php">Team Members</a></li>  
+                    <li><a href="ContactPage.html">Events</a> </li>  
+                    <li><a href="ContactPage.html">Team History</a> </li>  
+                    <li><a href="ContactPage.html">Contact Us</a> </li>  
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdyBXCUemz_cb_2yUlnrgPuBg2DbvW5S15-oV-fhB5IVk_deA/viewform?usp=sf_link">Apply to Join</a> </li>  
+                    </ul><!--End Nav element-->  
+
+            </span> 
+            <span class="ColumnB">
+                <h1>About Us</h1>  
+                    <p>Welcome to Milligan Robotics! We are an up and coming robotics team from Milligan University. We are exited and eager to compete in robotics competitions and to serve our regional community with our team's shared passion for making things.</p>  
+            <img src="MilliganRoboticsTeamPhoto2021.png" alt="A picture of six people standing on the steps of the BD Phillips building at Milligan University"width="500">
+            </span>
+        </div>
+    </div><!--end row--> 
+    <div class="row"> <!--create a row to put the mission statement in--> 
+        <h2> Our Mission: </h2>  
+            <p>Milligan Robotics seeks to honor God as a team of servant leaders by addressing environmental and humanitarian challenges through the exploration and development of robotics applications.</p> 
+    </div><!--end row--> 
+</body> 
+
+ 
+ 
+
+<footer>  
+
+<p>Copyright 2021 Henry Holben.</p>  
+
+</footer>  
+</html>
+
+
